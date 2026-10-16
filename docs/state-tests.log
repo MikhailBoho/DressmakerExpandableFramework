@@ -1,0 +1,40 @@
+PASS Reproduces the v0.1.0 nested Scene lookup failure
+PASS Scene binding resolves and invokes the actual nested enum overload
+PASS An incompatible scene API is rejected before patching
+PASS Wrapping explicitly overrides modern TMP's no-wrap default by name
+PASS Wrapping explicitly overrides the legacy boolean default
+PASS An unsupported wrapping API produces a useful error
+PASS Busy desk cannot open mail
+PASS Repeated open cannot reset a letter being read
+PASS Page navigation stays within both ends
+PASS Putting down a letter marks it read and permits reopening
+PASS Scene cancellation does not mark unread mail read
+PASS Opening and closing the inbox leaves every letter unread
+PASS Returning to the inbox reads only the selected letter
+PASS Invalid or late selection cannot replace the current letter
+PASS Unread indication clears only after every letter has been read
+PASS Compiled catalog has distinct identities and all three stationery profiles
+PASS Old holder defaults upgrade once
+PASS The 0.1.3 holder grows without changing its approved position
+PASS Holder upgrade preserves custom values independently
+PASS Holder clearance prevents overlap across supported sizes
+PASS Cancelling an opening cannot later complete or steal reader focus
+PASS A long frame finishes the opening once without overshooting
+PASS Escape is consumed for exactly its closing frame
+PASS Deferred native presentation resumes exactly once
+PASS Destroying the desk while waiting cancels resumption
+PASS Closing before the deferred coroutine starts still resumes
+PASS No available native presentation completes cleanly
+PASS A destroyed desk cannot resume even after mail closes
+PASS Inbox and reader transitions retain the deferred presentation
+PASS Only completed success unlocks Juniper's return letter
+PASS A restored active or completed quest is never offered a second time
+PASS Every playable letter contains the exact requirements used for scoring
+PASS Two initial requests are independent and four letters remain clearly non-playable
+PASS A locked follow-up neither flashes unread nor accepts a stale click
+PASS Delivery replies do not consume or corrupt inbox read counts
+PASS Changing saves clears reading and gating state
+PASS Repeated delivery callbacks cannot enter completion together
+PASS An adjustment request can be resubmitted without blocking other clients
+PASS A native error after rewards begin cannot silently retry payment
+39 regression and behavior checks passed.

@@ -1,0 +1,42 @@
+{
+  "assembly_sha256": "223583ff66b7b7ff799050c6f6265a3bc080f53376c912f240128bc55e469438",
+  "checks": [
+    "FrontDesk.NextPresentation(0 arguments)",
+    "FrontDesk.get_IsPresenting(0 arguments)",
+    "FrontDesk.OnDisable(0 arguments)",
+    "FrontDesk.bellButton",
+    "FrontDesk.dialogueText",
+    "GameManager.SetScene(2 arguments)",
+    "GameManager.ShowHideOptions(0 arguments)",
+    "GameManager.get_CurrentScene(0 arguments)",
+    "GameManager.frontDesk",
+    "GameManager.isInIntro",
+    "GameManager.commissionSubmitted",
+    "GameManager.progressDisplayInputBlocker",
+    "GameManager.optionsMenu",
+    "KnighthoodScene.ShowKnighthoodEnvelope(0 arguments)",
+    "KnighthoodScene.get_IsOpen(0 arguments)",
+    "KnighthoodScene.background",
+    "KnighthoodScene.envelope",
+    "KnighthoodScene.letter",
+    "KnighthoodScene.page1",
+    "PauseMenu.get_IsShowing(0 arguments)",
+    "MessengerPigeonUI.Show() -> System.Void"
+  ],
+  "nested_scene_checks": {
+    "global_Scene_exists": false,
+    "nested_type": "GameManager+Scene",
+    "CurrentScene_property_type": "GameManager+Scene",
+    "CurrentScene_getter_return_type": "GameManager+Scene",
+    "SetScene_first_parameter": "GameManager+Scene",
+    "SetScene_second_parameter": "System.Boolean",
+    "SetScene_return_type": "System.Void"
+  },
+  "note": "Static metadata inspection, including nested identity and property/method signatures. The game assembly was not executed.",
+  "pigeon_integration": "Read the optional menu font only. No native panel/button graphic, controller, or callback is copied. The Show prefix dismisses our modal before native UI opens.",
+  "optional_pigeon_font_fields": [
+    "MessengerPigeonUI.personButtonPrefab",
+    "PersonButton.text"
+  ],
+  "opening_animation": "Independent vector envelope and our paper; no additional native game member required. Native finale ShowLetter and openAnim were inspected but are not invoked."
+}

@@ -1,0 +1,124 @@
+{
+  "version": "0.2.0",
+  "build_date": "2026-10-16",
+  "target": ".NET Standard 2.1",
+  "architecture": "AnyCPU, managed IL only",
+  "compiler": "Roslyn 4.11.0 / SDK 8.0.426",
+  "unity_reference_package": "UnityEngine.Modules 6000.0.24 (compile-time reference only)",
+  "bepinex_reference_version": "5.4.23.5",
+  "harmony_reference_version": "2.9.0.0",
+  "plugin_sha256": "86bf76dd8b97737d009491686de967e3c8a5c518d1cc3e5387dc4770c458cf5c",
+  "plugin_size_bytes": 8388608,
+  "assembly_references": [
+    "netstandard",
+    "UnityEngine.CoreModule",
+    "UnityEngine.UIModule",
+    "BepInEx",
+    "0Harmony",
+    "UnityEngine.ImageConversionModule",
+    "UnityEngine.InputLegacyModule"
+  ],
+  "input_sha256": {
+    "Assembly-CSharp.dll": "223583ff66b7b7ff799050c6f6265a3bc080f53376c912f240128bc55e469438",
+    "BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "DressmakerMods.dll": "373d1d546ef26d6f504ebbbe006bb05b41444316db8256c6303949c8f7ea6bae"
+  },
+  "compilation": {
+    "exit_code": 0,
+    "warnings": 0,
+    "errors": 0
+  },
+  "state_checks_passed": 39,
+  "static_game_member_checks_passed": 72,
+  "in_game_tested": false,
+  "bundled_game_or_loader_binaries": false,
+  "source_sha256": {
+    "AssemblyInfo.cs": "50226a9dc2bb9c56cf22a10d0f0eb5e3d8f40cda49d68f9b31f94982d3456c1a",
+    "DeskMailPrototype.csproj": "0e6a6e031f19cc055a0a0727850ed329cf97012974cffc3f911dda047bd2a98c",
+    "EmbeddedArtwork.cs": "91566bc7a6e429b9be392ba38f924c193a30c5c6748570e3977682c5f620527b",
+    "EnvelopeVisual.cs": "50a0ff0417b186f4f71e7068abf776b5ada64f9417e408f3159a5e2561df061d",
+    "GameBridge.cs": "7a96bca0798261b9a6d08d05c49d04fe321cbd2d83a88d4b2d1e77e5b2300189",
+    "HolderLayout.cs": "1ece5e559580f41b202e0fb35a42b101fa98c711d025490a77fd91ee278cbca1",
+    "MailCatalog.cs": "7055c710cd93ba72ac263a84ad839826589cc1eaf34b9d3d3b5c7214a78c9f2e",
+    "MailSession.cs": "86e08630bb0970476531ee97e5cd19598b1dc20e204942af061addfc921c0c35",
+    "MailUi.cs": "f6fe032315dea8058b8106134109479a91a5cafba496577fb929dc04c104177d",
+    "NativeTypography.cs": "335d996da2df2e12a3871d76a6da3fe1a5680fd31d06f7ce4fe6d12517861370",
+    "OpeningMotion.cs": "5ca41e54544215e6727dacd758d7b5c35498bd62f223136ad1561cbd510fa096",
+    "Plugin.cs": "055bfa934708693bf4b8bc5eb1253bf9bffc3f0fddc2609bdd9089a37e389b3f",
+    "QuestRuntime.cs": "bebd8e883e833a2b3800751c2e381a68a6739436ed54c3188cf7dfd690acb46c",
+    "SampleQuests.cs": "631548a36293b717763cf9e9e18f352905ba3eb169ed5aebdf2b4e468c13ca74",
+    "SceneTransitionBinding.cs": "1eac01cf76abca118c26322c5ddf5ce20bcff3f588f70a7b809d3e3a2fc8fd54",
+    "TextLayoutBinding.cs": "d405b9f381dba66a1b3a15f49e8f689d6819719bd8a5769810f8d3aa16be56fa"
+  },
+  "scene_binding_regression": "GameManager+Scene, derived from CurrentScene.PropertyType",
+  "prior_user_test": "User confirmed the 0.1.4 presentation works. This 0.2.0 gameplay release requires an in-game play-test.",
+  "embedded_artwork": [
+    {
+      "resource_name": "Dressmaker.DeskMail.Assets.mail-holder.png",
+      "source_path": "assets/mail-holder.png",
+      "sha256": "1514b60d12a85ee199db0841fe6ead6c8033f63f59270257f70e0120915f2d88",
+      "size_bytes": 411124
+    },
+    {
+      "resource_name": "Dressmaker.DeskMail.Assets.stationery-botanical.png",
+      "source_path": "assets/stationery-botanical.png",
+      "sha256": "a15e34bf2207d72c7b7f223b8f918b24b9a971d0866a5eea1caa6ae40e0b94b5",
+      "size_bytes": 2823735
+    },
+    {
+      "resource_name": "Dressmaker.DeskMail.Assets.stationery-celestial.png",
+      "source_path": "assets/stationery-celestial.png",
+      "sha256": "f6e85df62b430ccd01e3193b5ba5290769142b35dbc71eae466f6c3bb27e226e",
+      "size_bytes": 2592988
+    },
+    {
+      "resource_name": "Dressmaker.DeskMail.Assets.stationery-rose.png",
+      "source_path": "assets/stationery-rose.png",
+      "sha256": "fc807b2151069abf7b0afb9907350345c0aeb26a4395637e4fa3ecb13dda972f",
+      "size_bytes": 2472974
+    }
+  ],
+  "wrapping_checks": "Explicit named Normal enum; legacy enableWordWrapping boolean; unsupported API reports failure. Fixtures do not render Unity UI.",
+  "compile_time_reference_sha256": {
+    "0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "UnityEngine.CoreModule.dll": "f8d9c837048b35714963e75350328e76bbb9fe9f0f95b5b595315ab57ec336b1",
+    "UnityEngine.ImageConversionModule.dll": "23a26c9a4c1775f21a17d2e0f15eb0a141310820627e3ef5baa6cb508aff4bdb",
+    "UnityEngine.InputLegacyModule.dll": "0f4e89bcb0c408f49dca55e979fb2db4f9094fd5ef6618c5cb87f961f55499da",
+    "UnityEngine.UIModule.dll": "618c7c68b15c8a339ff03e288c5da41abb8e2d5576c3634c7c521cb8ee9b3bcb",
+    "UnityEngine.dll": "736e451906198f9aeed406adca7ebd43b635839b892b2ea7542b94a8060e21ae"
+  },
+  "features": {
+    "sample_correspondents": 6,
+    "stationery_profiles": 3,
+    "holder_default_width": 300,
+    "holder_default_x_offset": -240,
+    "holder_minimum_bell_gap": 16,
+    "native_pigeon_skin_optional": false,
+    "native_commission_acceptance": true,
+    "runtime_model_or_network_calls": false,
+    "persistent_game_save_changes": true,
+    "native_menu_font_optional": true,
+    "holder_visibility_independent_of_input": true,
+    "opaque_rose_inbox": true,
+    "centered_sender_rows": true,
+    "opening_animation_seconds": 0.95,
+    "opening_animation_uses_native_finale_controller": false,
+    "opening_animation_can_be_disabled": true,
+    "playable_commissions": 3,
+    "initial_playable_offers": 2,
+    "writing_samples": 4,
+    "authored_letters": 7,
+    "pages_per_playable_letter": 3,
+    "successful_delivery_followup": true,
+    "native_scoring": true,
+    "native_payment": true
+  },
+  "test_scope": "39 pure C# regression/behavior checks; 72 metadata and native lifecycle call-site checks against supplied assemblies; compiled resources/package verification. No Unity execution, actual save round-trip, native rewards test, or rendered UI test.",
+  "test_sha256": {
+    "StateTests.cs": "51d2e0251248cee695ada4a13fabb56d20389c70da188051e1f47558d2f6b368",
+    "StateTests.csproj": "564ff17d478c825ae5e4ae309fc8bb123b791edfbefadf63367572a1465bb505",
+    "audit_contract.py": "fcfc35f814f7bddb6ae414efbed7a5edf4c430b9a164c3f922055c58d1d5b92b"
+  }
+}
